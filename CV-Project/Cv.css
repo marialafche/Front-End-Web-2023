@@ -1,6 +1,10 @@
+body{
+    background-color: white;
+    color: black;
+}
+
 .left{
     float: left;
-    background: #F6F6F6;
     width: 30%;
     height: 970px;
     min-width: 30rem;
@@ -8,13 +12,11 @@
 
 .right{
     float: left;
-    background: white;
     height: 970px; 
     min-width: 70%;
 }
 
 #firstName{
-    color: #494949;
     font-size: 5em;
     font-weight: bold;
     font-style: italic;
@@ -24,7 +26,6 @@
 }
 
 #secondName{
-    color: #494949;
     font-size: 4em;
     font-style: italic;
     margin-top: 0%;
@@ -70,11 +71,9 @@ img{
     margin-left: 24%;
     margin-right: auto;
     display: inline-block;
-    background-color: lightgrey;
     padding: 13px;
     padding-left: 10%;
     padding-right: 10%;
-    border-radius: 45%;
 }
 
 .emoji{
@@ -86,15 +85,20 @@ img{
     padding-left: 10%;
     font-size: 17px;
 }
-
-@keyframes glow {
-    from { background: #F6F6F6 }
-    to { background: black}
+.theme-button{
+    background-color:#EDEADE;
+    border: none;
+    padding: 10px 20px;
+    transition-duration: 0.4s;
+    float: right;
 }
 
-.theme-button {
-    width: 50px;
-    height: 35px;
-    background: hsl(150, 25%, 50%);
-    animation: glow 2s ease infinite alternate;
+.theme-button:hover{
+    background-color: #28282B;
+    color: #EDEADE;
+}
+
+.theme{
+    background-color: #28282B;
+    color: #EDEADE;
 }
