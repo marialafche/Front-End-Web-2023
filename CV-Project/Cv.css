@@ -88,14 +88,22 @@ img{
 .theme-button{
     background-color:#EDEADE;
     border: none;
-    padding: 10px 20px;
+    border-radius: 15px;
+    padding: 12px 22px;
     transition-duration: 0.4s;
     float: right;
+    box-shadow: 0 5px #9f9b9b;
 }
 
 .theme-button:hover{
     background-color: #28282B;
     color: #EDEADE;
+}
+
+.theme-button:active{
+  background-color: #28282B;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .theme{
