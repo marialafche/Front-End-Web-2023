@@ -1,0 +1,21 @@
+{
+    "contact": {
+      "name": "Maria Lafchieva",
+      "phone": "+359884208793",
+      "email": "marialafche@gmail.com",
+      "address": "Sofia, Ovcha Kupel"
+    },
+
+    "education":
+      {
+        "date1": "15.09.2016 - 25.05.2020",
+        "school1": "91 German Highschool",
+        "date2": "01.10.2021 - Current",
+        "school2": "Faculty of Mathematics and Informatics"
+      },
+    
+    "skills": {
+      "first": "Nimble Learner, Team Worker,",
+      "second": "Action Oriented, Good Time Management"
+    }
+}
