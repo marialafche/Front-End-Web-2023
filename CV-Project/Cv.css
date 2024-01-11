@@ -1,0 +1,100 @@
+.left{
+    float: left;
+    background: #F6F6F6;
+    width: 30%;
+    height: 970px;
+    min-width: 30rem;
+}
+
+.right{
+    float: left;
+    background: white;
+    height: 970px; 
+    min-width: 70%;
+}
+
+#firstName{
+    color: #494949;
+    font-size: 5em;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 0%;
+}
+
+#secondName{
+    color: #494949;
+    font-size: 4em;
+    font-style: italic;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+#type{
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 2%;
+}
+
+.info{
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.date{
+    font-style: italic;
+}
+
+hr{
+    margin-right: 15%;
+    margin-left: 2%;
+}
+
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: auto;
+
+}
+
+.description{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 4%;
+    margin-left: 24%;
+    margin-right: auto;
+    display: inline-block;
+    background-color: lightgrey;
+    padding: 13px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 45%;
+}
+
+.emoji{
+    font-size: 17px;
+    padding-left: 10%;
+}
+
+.leftInfo{
+    padding-left: 10%;
+    font-size: 17px;
+}
+
+@keyframes glow {
+    from { background: #F6F6F6 }
+    to { background: black}
+}
+
+.theme-button {
+    width: 50px;
+    height: 35px;
+    background: hsl(150, 25%, 50%);
+    animation: glow 2s ease infinite alternate;
+}
