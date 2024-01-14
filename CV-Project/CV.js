@@ -1,8 +1,3 @@
-function changeTheme(){
-    var element = document.body;
-    element.classList.toggle("theme");
-}
-
 document.addEventListener('DOMContentLoaded', function () {
     fetch('CV.json')
       .then(response => response.json())
@@ -16,13 +11,13 @@ document.addEventListener('DOMContentLoaded', function () {
     function generateLeftInfo(contact, education, skills) {
       return `
         <img src="me.jpg" alt="Photo of ${contact.name}">
-        <p class="description">CONTACT ME</p>
+        <h1 class="description">CONTACT ME</h1>
         <p class="emoji">&#128222;&emsp;${contact.phone}</p>
         <p class="emoji">&#128231;&emsp;${contact.email}</p>
         <p class="emoji">&#128204;&emsp;${contact.address}</p>
         <br>
         <hr>
-        <p class="description">EDUCATION</p>
+        <h1 class="description">EDUCATION</h1>
         <p class="leftInfo">${education.date1}</p>
         <p class="leftInfo">${education.school1}</p>
         <br>
@@ -30,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <p class="leftInfo">${education.school2}</p>
         <br>   
         <hr>
-        <p class="description">SKILLS</p>
+        <h1 class="description">SKILLS</h1>
         <p class="leftInfo">${skills.first}</p>
         <p class="leftInfo">${skills.second}</p>
       `;
