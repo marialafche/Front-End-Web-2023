@@ -8,12 +8,16 @@
 	width: 100%;
 	justify-content: center;
 	align-items: center;
-	background: var(--bg);
 	height: 70%;
+	
+}
+
+.left-content{
+	padding-right: 20rem;
 }
 
 .logo {
-	width: 270px;
+	width: 670px;
 }
 
 .footer {
@@ -27,23 +31,23 @@
 }
 
 .right-content {
-	background: #2596be;
+	background: #702963;
 	display: flex;
 	flex-direction: column;
 	box-shadow: 0 2px 4px black, 0 8px 16px black;
 	border-radius: 8px;
-	width: 400px;
-	padding: 1rem;
+	width: 550px;
+	padding: 2rem;
 	box-sizing: border-box;
 }
 
 .right-content input {
 	height: 48px;
-	border: var(--border);
 	font-size: 20px;
 	padding-left: 1rem;
 	margin-top: 1rem;
 	box-sizing: border-box;
+	background: #E6E6FA;
 }
 
 input.invalid-field {
@@ -60,8 +64,8 @@ input.invalid-field {
 
 .login-btn {
 	height: 48px;
-	background: var(--blue-bg);
-	color: white;
+	background: #E6E6FA;
+	color: #702963;
 	border: none;
 	border-radius: 6px;
 	margin-top: 1rem;
@@ -79,14 +83,14 @@ input.invalid-field {
 	height: 48px;
 	box-sizing: border-box;
 	border-radius: 6px;
-	background-color:  #002244;
+	background-color:  #301934;
 	border: none;
 	width: 80%;
 	margin: auto;
 }
 
 .create-account-wrapper button {
-	color: white;
+	color: #E6E6FA;
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 18px;

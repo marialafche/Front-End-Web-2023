@@ -12,13 +12,13 @@ body, p, ul {
 
 body {
 	font-family: Arial, sans-serif;
-	background-color: #E0FFFF;
+	background-color: 	#E6E6FA;
 	text-align: center;
 }
 #together{
 	display: flex;
 	align-items: center;
-	background-color: #002244;
+	background-color: 	#702963;
 	padding: 20px 10px;
   }
 
@@ -31,14 +31,14 @@ body {
 .options{
     font-family: Arial, sans-serif;
     font-size: 80px;
-    color: #002244;
+    color: #301934;
 }
 
 .order-option-btn{
     height: 300px;
     width: 600px;
-	background: #002244;
-	color: #E0FFFF;
+	background: #702963;
+	color: #E6E6FA;
 	border: none;
 	border-radius: 20px;
 	margin-top: 1rem;
@@ -50,8 +50,8 @@ body {
 .reserve-option-btn{
     height: 300px;
     width: 600px;
-	background: #002244;
-	color: #E0FFFF;
+	background: #702963;
+	color: #E6E6FA;
 	border: none;
 	border-radius: 20px;
 	margin-top: 1rem;
