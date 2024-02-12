@@ -1,0 +1,30 @@
+.heading{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: flex-start;
+}
+
+.box-container {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.box {
+    margin-bottom: 30px;
+}
+
+.image img {
+    width: 40%; /* Adjusts the image width to fit the cell */
+    height: auto; /* Keeps the image aspect ratio */
+}
+
+.image, .content {
+    text-align: center;
+    padding: 10px;
+    padding-top: 150px;
+}
+
+.box:first-child td {
+    border-top: none;
+}

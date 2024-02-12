@@ -70,6 +70,7 @@ input.invalid-field {
 	border-radius: 6px;
 	margin-top: 1rem;
 	font-size: 1.25rem;
+	cursor: pointer;
 }
 
 .create-account-wrapper {
@@ -80,20 +81,19 @@ input.invalid-field {
 }
 
 .create-account-wrapper button {
-	height: 48px;
+	height: 52px;
 	box-sizing: border-box;
 	border-radius: 6px;
 	background-color:  #301934;
 	border: none;
 	width: 80%;
 	margin: auto;
-}
-
-.create-account-wrapper button {
+	cursor: pointer;
 	color: #E6E6FA;
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 18px;
+	margin-top: 10px;
 }
 
 .header {

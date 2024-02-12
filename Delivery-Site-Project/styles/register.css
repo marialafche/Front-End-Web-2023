@@ -15,6 +15,7 @@ a.left-content,
 	width: 250px;
 	margin-left: 4.5rem;
 	margin-top: 2rem;
+	border-radius: 8px;
 }
 
 .footer {
@@ -66,6 +67,7 @@ input.invalid-field {
 	border-radius: 6px;
 	margin-top: 1rem;
 	font-size: 1.25rem;
+	cursor: pointer;
 }
 
 .create-account-wrapper {
@@ -83,6 +85,7 @@ input.invalid-field {
 	border: none;
 	width: 80%;
 	margin: auto;
+	cursor: pointer;
 }
 
 .create-account-wrapper button {
@@ -107,6 +110,7 @@ input.invalid-field {
 .back {
 	height: 140%;
 	margin-left: 2rem;
+	cursor: pointer;
 }
 
 .header span {
