@@ -1,7 +1,7 @@
 window.addEventListener('load', ()=>{
     const back = document.getElementsByClassName("back")[0]
     .addEventListener('click', ()=>{
-        location.href = '../html/login.html';
+        location.href = '../html/index.html';
     }); 
 
     const signUp = document.getElementsByClassName("login-form")[0].addEventListener('submit', function(event) {
