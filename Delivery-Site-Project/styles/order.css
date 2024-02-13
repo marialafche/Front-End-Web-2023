@@ -34,7 +34,7 @@ td{
     color: #370D32;
 }
 
-button{
+/* button{
   background-color: #370D32;
   border: none;
   border-radius: 8px;
@@ -52,4 +52,43 @@ button{
 button:hover{
   background-color: var(--dark-color);
   color: var(--light-color);
+} */
+
+.button {
+    border-radius: 4px;
+    background-color: var(--light-color);
+    border: 1px solid var(--dark-color);
+    color: var(--dark-color);
+    text-align: center;
+    font-size: 21px;
+    padding: 20px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
