@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "image": "../photos/ItalianSalad.webp",
+        "name": "Fresh Salad",
+        "price": 14.99
+        
+    },
+
+    {
+        "id": 2,
+        "image": "../photos/MargheritaPizza.webp",
+        "name": "Margherita Pizza",
+        "price": 17.99
+        
+    },
+
+    {
+        "id": 3,
+        "image": "../photos/MeatmaniaPizza.webp",
+        "name": "Meatmania Pizza",
+        "price": 23.99
+        
+    },
+
+    {
+        "id": 4,
+        "image": "../photos/SpaghettiCarbonara.webp",
+        "name": "Spaghetti Carbonara",
+        "price": 19.99
+        
+    },
+    {
+        "id": 5,
+        "image": "../photos/RisottoAllaMilanese.webp",
+        "name": "Risoto alla Milanese",
+        "price": 21.99
+        
+    },
+    {
+        "id": 6,
+        "image": "../photos/OssoBuco.webp",
+        "name": "Osso Buco",
+        "price": 29.99
+        
+    },
+    {
+        "id": 7,
+        "image": "../photos/OssoBuco.webp",
+        "name": "Osso Buco",
+        "price": 29.99
+        
+    },
+    {
+        "id": 8,
+        "image": "../photos/Tiramisu.webp",
+        "name": "Tiramisu",
+        "price": 12.99
+        
+    }
+]

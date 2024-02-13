@@ -1,0 +1,27 @@
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 95vw;
+
+}
+.photo::before{
+    background-image: url('../photos/CoverPhoto.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center;
+    opacity: 0.3;
+    z-index: -1;
+}
+.title{
+    font-size: 150px;
+    text-align: center;
+
+}

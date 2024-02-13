@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "image": "../photos/GourmetSalad.webp",
+        "name": "Gourmet Salad",
+        "price": 13.99
+        
+    },
+
+    {
+        "id": 2,
+        "image": "../photos/Duck.webp",
+        "name": "Roasted Duck",
+        "price": 25.99
+        
+    },
+
+    {
+        "id": 3,
+        "image": "../photos/FillerMignon.webp",
+        "name": "Fillet Mignon",
+        "price": 22.99
+        
+    },
+
+    {
+        "id": 4,
+        "image": "../photos/Soufle.webp",
+        "name": "Chocolate Cake",
+        "price": 19.99
+        
+    }
+]

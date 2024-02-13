@@ -1,16 +1,15 @@
 body{
-  background-color:	#FFFFF0;
+  background-color:		#faebd7;
 }
 
 .nav::before{
-    background-image: url('../photos/SakuraSushiPhoto.webp');
+    background-image: url('../photos/ItalianRestaurantPhoto.webp');
   }
 
   header{
     margin: auto;
     text-align: center;
     padding-left: 40px;
-    padding-right: 450px;
   }
   
   .container{
@@ -29,11 +28,11 @@ body{
     grid-template-columns: repeat(6, 10fr);
     gap: 50px;
     padding-left: 40px;
-    
+    padding-right: 450px;
   }
   
   .item{
-    background-color: #F5DEB3;
+    background-color: 	#ffcba4;
     padding: 20px;
     border-radius: 20px;
     text-align: center;
@@ -50,8 +49,8 @@ body{
   }
   
   .add-to-cart{
-    background-color:	#800020;
-    color: #F5DEB3;
+    background-color:		#c46210 ;
+    color: 	#ffcba4;
     padding: 5px 10px;
     border-radius: 20px;
     margin-top: 10px;
@@ -61,8 +60,8 @@ body{
   
   .cart-tab{
     width:400px;
-    background-color: #800020;
-    color: #F5DEB3;
+    background-color: 	#c46210 ;
+    color: 	#ffcba4;
     position: fixed;
     inset: 0 0 0 auto;
     display: grid;
@@ -81,8 +80,8 @@ body{
   }
   
   .check-out{
-    background-color: #F5DEB3;
-    border: 1px solid #800020;
+    background-color: 	#ffcba4;
+    border: 1px solid 	#c46210 ;
     font-weight: 500;
     cursor: pointer;
     align-items: center;
@@ -106,14 +105,13 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-color: #F5DEB3;
-    color: #800020;
+    background-color:	#ffcba4;
+    color: 	#c46210 ;
     border-radius: 50%;
     cursor: pointer;
   }
   
   .quantity span:nth-child(2){
     background-color: transparent;
-    color: #F5DEB3;
-  
+    color: #ffcba4;
   }

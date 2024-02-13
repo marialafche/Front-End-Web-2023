@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "image": "../photos/JapSalad.webp",
+        "name": "Japanese Salad",
+        "price": 17.99
+        
+    },
+
+    {
+        "id": 2,
+        "image": "../photos/MisoSoup.webp",
+        "name": "Miso Soup",
+        "price": 13.99
+        
+    },
+
+    {
+        "id": 3,
+        "image": "../photos/KaisekiMeal.webp",
+        "name": "Traditional Kaiseki Meal",
+        "price": 72.99
+        
+    },
+
+    {
+        "id": 4,
+        "image": "../photos/SushiSetOne.webp",
+        "name": "Sushi Set",
+        "price": 54.99
+        
+    },
+    {
+        "id": 5,
+        "image": "../photos/MatchaCake.webp",
+        "name": "Matcha Cake",
+        "price": 19.99
+        
+    }
+]

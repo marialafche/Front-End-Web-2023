@@ -7,6 +7,7 @@ window.addEventListener('load', ()=>{
 
     const signIn = document.getElementsByClassName("login-form")[0].addEventListener('submit', function(event) {
         event.preventDefault();
+        
         const email = document.getElementsByClassName('login-email')[0].value;
         const password = document.getElementsByClassName('login-password')[0].value;
 

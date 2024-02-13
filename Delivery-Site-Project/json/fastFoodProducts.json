@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "image": "../photos/BurgerMenu.webp",
+        "name": "Burger Menu",
+        "price": 19.99
+        
+    },
+
+    {
+        "id": 2,
+        "image": "../photos/PremiumBurger.webp",
+        "name": "Premium Burger",
+        "price": 20.99
+        
+    },
+
+    {
+        "id": 3,
+        "image": "../photos/FrenchFries.webp",
+        "name": "French Fries",
+        "price": 13.99
+        
+    },
+
+    {
+        "id": 4,
+        "image": "../photos/Cupcakes.webp",
+        "name": "16 Delicious Cupcakes",
+        "price": 32.99
+        
+    }
+]
