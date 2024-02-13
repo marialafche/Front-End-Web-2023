@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    min-height: 100vh;
+    background-color: #E6E6FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #702963;
+    padding-bottom: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 420px 420px;
+
+}
+
+.img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.content{
+    background-color: #702963;
+    height: 380px;
+}
+
+.content h3{
+    text-align: center;
+    color: #E6E6FA;
+    padding: 50px 0 40px 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #702963;
+    font-weight: 300;
+}
+form input[type=text], form input[type=number], form input::placeholder, select{
+    color: #702963
+}
+
+form input[type=submit]{
+    color: #702963;
+    background: #D8BFD8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+

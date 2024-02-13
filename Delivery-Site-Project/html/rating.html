@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="../styles/rating.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <img id="logo" src="../photos/LogoLafDelivery.png" alt="Logo">
+        <nav class="navbar">
+            <a href="./homePage.html">Home</a>
+            <a href="./order.html">Order</a>
+            <a href="./reservation.html">Reservation</a>
+            <a href="./rating.html" class="active">Survey</a>
+            <a href="./login.html">Log Out</a>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <h3>Leave Your Review Below</h3>
+        <form action="#">
+            <div class="rating">
+                <input type="number" name="rating" hidden>
+                <i class='bx bx-star star'></i>
+                <i class='bx bx-star star'></i>
+                <i class='bx bx-star star'></i>
+                <i class='bx bx-star star'></i>
+                <i class='bx bx-star star'></i>
+            </div>
+            <textarea name="opinion" cols="30" rows="5" placeholder="Your Opinion..."></textarea>
+                <button type="submit" class="btn-submit">Submit</button>
+        </form>
+    </div>
+
+<script src="../scripts/rating.js"></script>   
+</body>
+</html>
