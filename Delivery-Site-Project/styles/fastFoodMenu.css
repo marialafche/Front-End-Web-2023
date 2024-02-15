@@ -10,7 +10,6 @@ body{
     margin: auto;
     text-align: center;
     padding-left: 40px;
-    padding-right: 450px;
   }
   
   .container{
@@ -28,7 +27,8 @@ body{
     display: grid;
     grid-template-columns: repeat(6, 10fr);
     gap: 50px;
-    padding-left: 300px;
+    padding-left: 250px;
+    padding-right: 200px;
   }
   
   .item{
